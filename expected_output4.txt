@@ -1,1 +1,0 @@
-SYNTAX ERROR: Expected end of file at line 9
