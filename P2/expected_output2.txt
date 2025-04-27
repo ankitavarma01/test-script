@@ -1,0 +1,77 @@
+Parsing completed successfully.
+Parse Tree:
+Program
+  Keyword [program]
+  Vars
+    Keyword [var]
+    VarList
+      Identifier [x1]
+      Delimiter [,]
+      Integer [1]
+      VarList
+        Identifier [x2]
+        Delimiter [,]
+        Integer [2]
+        Delimiter [;]
+  Block
+    Keyword [start]
+    Stats
+      Conditional
+        Keyword [iff]
+        Delimiter [[]
+        Expression
+          M
+            N
+              R
+                Identifier [x1]
+        Relational [.le.]
+        Expression
+          M
+            N
+              R
+                Integer [5]
+        Delimiter []]
+        Block
+          Keyword [start]
+          Stats
+            Print
+              Keyword [print]
+              Expression
+                M
+                  N
+                    R
+                      Identifier [x1]
+              Delimiter [;]
+            MStat
+              Print
+                Keyword [print]
+                Expression
+                  M
+                    N
+                      R
+                        Identifier [x2]
+                Delimiter [;]
+          Keyword [stop]
+      MStat
+        Print
+          Keyword [print]
+          Expression
+            M
+              N
+                R
+                  Integer [1]
+          Delimiter [;]
+        MStat
+          Block
+            Keyword [start]
+            Stats
+              Print
+                Keyword [print]
+                Expression
+                  M
+                    N
+                      R
+                        Integer [2]
+                Delimiter [;]
+            Keyword [stop]
+    Keyword [stop]

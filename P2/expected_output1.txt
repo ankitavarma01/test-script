@@ -1,0 +1,16 @@
+Parsing completed successfully.
+Parse Tree:
+Program
+  Keyword [program]
+  Block
+    Keyword [start]
+    Stats
+      Print
+        Keyword [print]
+        Expression
+          M
+            N
+              R
+                Integer [1]
+        Delimiter [;]
+    Keyword [stop]

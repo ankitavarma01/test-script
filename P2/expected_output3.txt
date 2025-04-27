@@ -1,0 +1,1 @@
+SYNTAX ERROR: Expected ; but got ~ at line 5
